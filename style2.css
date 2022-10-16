@@ -1,0 +1,54 @@
+
+.container {
+    flex-direction: row;
+    display: flex;
+    background-color: skyblue;;
+    padding: 0px;
+}
+.left {
+    background-color: rgb(5, 60, 88);
+    color: white;
+    width: 50%;
+    height: 35vh;
+    transform: skew(20deg);
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto 0 -240px; 
+    padding-left: 256px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.content1 {
+    justify-content: center;
+}
+.right {
+    background-color: skyblue;
+    width: 405;
+}
+
+.color {
+    height: 10px;
+   background-color: rgb(216, 216, 44);
+    width: 100vw;
+
+}
+
+.left1 {
+    background-color: skyblue;
+    width: 40%;
+}
+.right1 {
+    background-color: rgb(5, 60, 88);
+    color: white;
+    width: 40%;
+    height: 35vh;
+    transform: skew(20deg);
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto 0 240px; 
+    padding-left: 256px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.content1 {
+    text-align: center;
+    padding: 100px;
+}
